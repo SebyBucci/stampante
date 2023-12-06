@@ -4,6 +4,7 @@ Questo progetto implementa un' applicazione WPF che simula una stampante e la st
 la stampante e le pagine sono rappresentate dalle classi "Stampante" e "Pagina".
 Il programma consente di visualizzare lo stato dell'inchiostro e della carta ed eseguire operazioni come la sostituzione del colore e la stampa di pagine.
 
+
 #Codice e spiegazione:
 ```C#
         public int C { get; set; }
@@ -25,6 +26,7 @@ Costruttore:
 ```
 
 Il costruttore inizializza le quantità di inchiostro per ciascun colore (C, M, Y, B) a 100 e la quantità di fogli (Fogli) a 200.
+
 Metodo Stampa:
 
 ```C#
